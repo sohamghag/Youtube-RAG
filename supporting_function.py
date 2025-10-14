@@ -10,7 +10,6 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.proxies import WebshareProxyConfig
 from langchain_chroma import Chroma
-from google import genai
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
