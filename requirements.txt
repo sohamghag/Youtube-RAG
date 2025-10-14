@@ -12,6 +12,9 @@ pypdf
 requests
 youtube-transcript-api==1.2.2
 gtts
+rapidocr-onnxruntime
+pysqlite3-binary
+
 
 langchain
 langchain-google-genai
