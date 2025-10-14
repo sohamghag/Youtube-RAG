@@ -8,6 +8,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api.proxies import WebshareProxyConfig
 from langchain_chroma import Chroma
 from google import genai
 
@@ -27,7 +28,12 @@ def extract_video_id(url):
     return None
 
 def get_transcript(url_id,language):
-    ytt=YouTubeTranscriptApi()
+    ytt=YouTubeTranscriptApi(
+        proxy_config=WebshareProxyConfig(
+            proxy_username="uovoumor",
+            proxy_password="udk28jufv401",
+        )
+    )
     try:
         print("Inside get_transcript function")
         transcript=ytt.fetch(url_id,languages=[language])
