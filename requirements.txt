@@ -1,0 +1,31 @@
+langchain-text-splitters
+protobuf
+langchain-core
+google-generativeai
+pillow
+numpy
+pandas
+httpx
+python-dotenv
+streamlit
+pypdf
+requests
+youtube-transcript-api==1.2.2
+gtts
+
+langchain
+langchain-google-genai
+langchain-chroma
+langchain-experimental #--> offical Subpackage of langchain
+#Before new modules are added to langchain, they’re released
+#in langchain-experimental so developers can try them early.
+langchainhub
+# When building LLM apps, many people end up rewriting the same logic (like “summarize text,” “generate SQL,” “answer questions about a document”).
+#LangChainHub solves this by letting you:
+#Reuse community-tested prompts
+#Access official LangChain examples
+#Store and share your own LLM building blocks#
+langchain-community # --> official subpackage of langchain
+#langchain_community is an official subpackage that contains community-maintained
+#integrations for LangChain — i.e. connectors, tools, document loaders, and vector stores
+#that are not part of the LangChain core, but are still officially supported.

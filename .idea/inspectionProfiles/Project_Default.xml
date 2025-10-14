@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="streamlit" />
+          <option value="python-dotenv" />
+          <option value="google-generativeai" />
+          <option value="google-genai" />
+          <option value="pandas" />
+          <option value="pillow" />
+          <option value="1langchain" />
+          <option value="numpy" />
+          <option value="httpx" />
+          <option value="pypdf" />
+          <option value="requests" />
+          <option value="youtube-transcript-api" />
+          <option value="gtts" />
+          <option value="langchain" />
+          <option value="langchain-google-genai" />
+          <option value="langchain_chroma" />
+          <option value="langchain-experimental" />
+          <option value="langchainhub" />
+          <option value="langchain_community" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="_random.random.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
